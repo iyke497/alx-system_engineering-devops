@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --recursive +x .
+ls -d | chmod --recursive +x 
