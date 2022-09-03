@@ -1,2 +1,2 @@
 #!/bin/bash
-umask 026 | mkdir my_dir
+setfacl -PRdm u::rwx,g::rw,o::x . | mkdir my_dir
