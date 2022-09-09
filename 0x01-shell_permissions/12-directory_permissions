@@ -1,2 +1,2 @@
 #!/bin/bash
-setfacl -PRdm u::rwx,g::rw,o::x . | mkdir my_dir
+mkdir -m 751 my_dir
